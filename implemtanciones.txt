@@ -1,0 +1,40 @@
+1. Categorías de Gastos
+Descripción: Permite a los usuarios clasificar sus gastos en categorías como "Alimentación", "Transporte", "Entretenimiento", etc.
+Implementación: Añade un modelo de Categoría y permite a los usuarios asignar categorías a sus gastos.
+Beneficio: Facilita la identificación de áreas de gasto principales y ayuda en la planificación financiera.
+2. Reportes y Gráficos
+Descripción: Genera reportes visuales como gráficos de barras o pasteles para mostrar los gastos por categoría, mes, etc.
+Implementación: Utiliza librerías como Matplotlib o Plotly en el backend y Chart.js en el frontend.
+Beneficio: Ayuda a los usuarios a visualizar sus patrones de gasto y tomar decisiones informadas.
+3. Presupuestos
+Descripción: Permite a los usuarios establecer presupuestos para diferentes categorías y recibir alertas cuando se acercan o exceden esos presupuestos.
+Implementación: Añade un modelo de Presupuesto y lógica para comparar gastos actuales con los límites establecidos.
+Beneficio: Ayuda a controlar el gasto y fomentar el ahorro.
+4. Recordatorios y Notificaciones
+Descripción: Envía recordatorios a los usuarios para registrar sus gastos diariamente o semanalmente.
+Implementación: Utiliza un sistema de notificaciones por correo electrónico o mensajes push.
+Beneficio: Mantiene a los usuarios comprometidos con el registro de sus gastos.
+5. Exportación de Datos
+Descripción: Permite a los usuarios exportar sus datos de gastos a formatos como CSV o PDF.
+Implementación: Añade endpoints para generar y descargar archivos exportables.
+Beneficio: Facilita el análisis externo y la conservación de registros.
+6. Multi-moneda
+Descripción: Soporta la entrada de gastos en diferentes monedas y proporciona conversiones automáticas.
+Implementación: Integra más APIs de conversión de moneda.
+Beneficio: Útil para usuarios que viajan frecuentemente o tienen ingresos/gastos en diferentes monedas.
+7. Integración Bancaria
+Descripción: Permite a los usuarios conectar sus cuentas bancarias y tarjetas de crédito para importar automáticamente sus transacciones.
+Implementación: Utiliza servicios como Plaid para la integración bancaria.
+Beneficio: Automatiza la entrada de datos y reduce el esfuerzo manual.
+8. Objetivos de Ahorro
+Descripción: Permite a los usuarios establecer objetivos de ahorro y realizar un seguimiento de su progreso.
+Implementación: Añade un modelo de Objetivo y lógica para calcular el progreso.
+Beneficio: Fomenta hábitos financieros saludables y ayuda a alcanzar metas financieras.
+9. Seguridad Adicional
+Descripción: Implementa autenticación de dos factores (2FA) y cifrado de datos sensibles.
+Implementación: Utiliza librerías como pyotp para 2FA.
+Beneficio: Aumenta la seguridad de la cuenta y protege la información del usuario.
+10. Comentarios y Etiquetas Personalizadas
+Descripción: Permite a los usuarios añadir comentarios o etiquetas personalizadas a sus gastos.
+Implementación: Añade campos adicionales en el modelo de Gastos.
+Beneficio: Proporciona mayor flexibilidad y detalles en el registro de gastos.

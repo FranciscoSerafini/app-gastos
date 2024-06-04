@@ -1,0 +1,5 @@
+Funcionalidades BASICAS de la aplicacion
+1.Autenticación de Usuarios: Registro e inicio de sesión con seguridad.
+2.Gestión de Gastos: Permitir a los usuarios registrar y ver sus gastos.
+3.Conversión de Moneda: Obtener el valor del dólar blue y convertir los gastos a esta moneda para análisis.
+4.Interfaz Web: Una página para que los usuarios accedan y gestionen sus gastos.
