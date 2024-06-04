@@ -15,7 +15,7 @@ class Expense(BaseModel):
     user_id: int
     
     class Config: 
-        orm_mode = True #habilita el modo orm para trabajar con base de datos (compatibilidad)
+        from_attributes = True #habilita el modo orm para trabajar con base de datos (compatibilidad)
         
 class UserBase(BaseModel):
     username: str
@@ -29,7 +29,7 @@ class User(UserBase):
     expense: List[Expense] = []
     
     class Config:
-        orm_mode = True
+      from_attributes = True
 
 from pydantic import BaseModel
 
@@ -38,4 +38,4 @@ class Token(BaseModel):
     token_type: str
 
     class Config:
-        orm_mode = True
+        from_attributes = True

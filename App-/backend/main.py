@@ -49,5 +49,3 @@ def read_expenses(skip: int = 0, limit: int = 10, db: Session = Depends(deps.get
 @app.get("/currency/dollar_blue")
 def read_dollar_blue_value():
     return {"dollar_blue_value": currency.get_dollar_blue_value()}
-
-
